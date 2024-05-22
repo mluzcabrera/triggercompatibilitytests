@@ -1,0 +1,16 @@
+name: triggercompatibility
+
+on: 
+  workflow_dispatch:
+    inputs:
+      logLevel:
+        description: 'Log level'
+        required: true
+  push:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Print output
+      run: echo "Hello world triggersingle!"
