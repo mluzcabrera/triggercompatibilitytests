@@ -15,4 +15,4 @@ jobs:
 
     steps:
     - name: Print output
-      run: echo "Hello world triggersingle! ${{ inputs.logLevel }}"
+      run: echo "Hello world triggersingle!  ${{ inputs.logLevel }}"
