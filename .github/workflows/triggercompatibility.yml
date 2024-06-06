@@ -4,7 +4,8 @@ on:
   workflow_dispatch:
     inputs:
       logLevel:
-        required: true
+        required: false
+        default: thisisatest
   push:
   schedule:
     - cron: "13 13 13 12 *"
