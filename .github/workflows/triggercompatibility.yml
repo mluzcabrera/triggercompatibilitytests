@@ -6,6 +6,9 @@ on:
       logLevel:
         required: false
         default: thisisatest
+      numex:
+        required: false
+        type: number
   push:
   schedule:
     - cron: "13 13 13 12 *"
