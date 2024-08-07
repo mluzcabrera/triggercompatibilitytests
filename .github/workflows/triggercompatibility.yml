@@ -5,7 +5,10 @@ on:
     inputs:
       logLevel:
         required: false
-        default: thisisatest
+        type: choice
+        options:
+        - op1
+        - op2
       numex:
         required: false
         type: number
