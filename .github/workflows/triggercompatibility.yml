@@ -10,6 +10,7 @@ on:
         - op1
         - op1
         - op1
+        default: op1
       numex:
         required: false
         type: number
