@@ -5,12 +5,8 @@ on:
     inputs:
       logLevel:
         required: false
-        type: choice
-        options:
-        - op1
-        - op1
-        - op1
-        default: op1
+        type: string
+        default: defaultvalue
       numex:
         required: false
         type: number
