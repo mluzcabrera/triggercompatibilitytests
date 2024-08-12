@@ -4,12 +4,9 @@ on:
   workflow_dispatch:
     inputs:
       logLevel:
-        required: false
-        type: string
-        default: defaultvalue
-      numex:
-        required: false
-        type: number
+        required: true
+        type: boolean
+      
   push:
   schedule:
     - cron: "13 13 13 12 *"
