@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       logLevel:
-        required: true
+        required: false
         type: boolean
       
   push:
