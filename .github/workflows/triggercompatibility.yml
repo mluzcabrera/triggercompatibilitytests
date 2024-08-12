@@ -16,4 +16,4 @@ jobs:
 
     steps:
     - name: Print output
-      run: echo "Hello world logLevel!  ${{ inputs.logLeveleroror }}"
+      run: echo "Hello world logLevel!  ${{ inputs.logLevel }}"
