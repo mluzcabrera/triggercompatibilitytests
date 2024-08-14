@@ -12,9 +12,6 @@ on:
         default: hello
         type: string
       
-  push:
-  schedule:
-    - cron: "13 13 13 12 *"
 jobs:
   build:
     runs-on: ubuntu-latest
