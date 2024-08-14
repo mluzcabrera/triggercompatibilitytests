@@ -4,8 +4,13 @@ on:
   workflow_dispatch:
     inputs:
       logLevel:
-        required: false
+        required: true
+        default: true
         type: boolean
+      logLevelS:
+        required: true
+        default: hello
+        type: string
       
   push:
   schedule:
