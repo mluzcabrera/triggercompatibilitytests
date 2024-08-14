@@ -5,11 +5,9 @@ on:
     inputs:
       logLevel:
         required: true
-        default: true
         type: boolean
       logLevelS:
         required: true
-        default: hello
         type: string
       
 jobs:
