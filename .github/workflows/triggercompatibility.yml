@@ -26,4 +26,4 @@ jobs:
 
     steps:
     - name: Print output
-      run: echo "Hello world logLevelS!  ${{ inputs.logLevelS }}" + ${{ inputs.logLevel }}
+      run: echo "Hello world logLevelS!  ${{ inputs.logLevelB }} + ${{ inputs.logLevelS }}  + ${{ inputs.logLevelN }}  + ${{ inputs.logLevelC }}"
