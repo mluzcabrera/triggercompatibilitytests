@@ -5,15 +5,19 @@ on:
     inputs:
       logLevelB:
         type: boolean
+        required: false
         default: true
       logLevelS:
         type: string
+        required: false
         default: mlcb
       logLevelN:
         type: number
+        required: false
         default: 666
       logLevelC:
         type: choice
+        required: false
         options:
           - opt1
           - opt2
