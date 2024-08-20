@@ -3,12 +3,22 @@ name: triggercompatibility
 on: 
   workflow_dispatch:
     inputs:
-      logLevel:
-        required: true
+      logLevelB:
         type: boolean
+        default: true
       logLevelS:
-        required: true
         type: string
+        default: mlcb
+      logLevelN:
+        type: number
+        default: 666
+      logLevelC:
+        type: choice
+        options:
+          - opt1
+          - opt2
+          - opt3
+        default: opt3
       
 jobs:
   build:
